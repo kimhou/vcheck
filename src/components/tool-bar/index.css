@@ -1,4 +1,18 @@
 .tool-bar{
     width: 300px;
     background: #fff;
+    border-left: solid 5px #222;
+}
+.ant-collapse-content-box{
+    padding:0 0 16px 0!important;
+}
+.ant-tabs-tab{
+    padding: 8px 16px!important;
+}
+.img-item{
+    width: 100px;
+    border: solid 5px #eee;
+}
+.img-current{
+    border: solid 5px #61A4E1;
 }

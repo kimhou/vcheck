@@ -1,1 +1,5 @@
 node_modules
+build
+build.crx
+build.pem
+.DS_Store

@@ -2,14 +2,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-
-chrome.storage.local.get('state', (obj) => {
-  const { state } = obj;
-  const initialState = JSON.parse(state || '{}');
+import 'antd/dist/antd.css'
 
 
-  ReactDOM.render(
-    <App {...initialState} />,
-    document.querySelector('#root')
-  );
-});
+ReactDOM.render( <App/>, document.querySelector('#root') );
+

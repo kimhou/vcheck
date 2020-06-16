@@ -1,0 +1,22 @@
+*, *::after, *::before {
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+}
+.platform{
+    flex:1;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+}
+.move-ctn{
+    position: relative;
+}
+.ui-img-wrap{
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    bottom:0;
+}
